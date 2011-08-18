@@ -1,0 +1,61 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+"http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<script type="text/javascript" src="res/lib/detectmobilebrowser.js"></script>
+<script type="text/javascript">
+var screen_mobile = true;
+var screen_width = 320;
+var screen_height = 480;
+var browser_mobile = is_mobile_browser();
+if(screen_mobile && !browser_mobile && top == window) {
+top.location.href = './mob-screen-E904.html';
+}
+</script>
+<title>mobilescreen1</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="viewport" content="initial-scale=1.0" />
+<link type="text/css" href="res/lib/jquerymobile/1.0b1/jquery.mobile-1.0b1.min.css" rel="stylesheet" />
+<script type="text/javascript" src="res/lib/store/json2.js"></script>
+<script type="text/javascript" src="res/lib/jquery/jquery-1.6.2.min.js"></script>
+<script type="text/javascript" src="res/lib/jquerymobile/jquery.mobile.iepatch.js"></script>
+<script type="text/javascript" src="res/lib/jquerymobile/1.0b1/jquery.mobile-1.0b1.min.js"></script>
+<script type="text/javascript" src="res/lib/store/jstore.js"></script>
+<script type="text/javascript" src="res/lib/event/customEventHandler.js"></script>
+<script type="text/javascript" src="res/lib/jqueryds/underscore-min.js"></script>
+<script type="text/javascript" src="res/lib/jqueryds/dispatcher.js"></script>
+<script type="text/javascript" src="res/lib/jqueryds/jsonpath.js"></script>
+<script type="text/javascript" src="res/lib/jqueryds/jquery.base64.js"></script>
+<script type="text/javascript" src="res/lib/jqueryds/contexts.js"></script>
+<script type="text/javascript" src="res/lib/jqueryds/tiggr.js"></script>
+<script type="text/javascript" src="res/lib/jqueryds/oauth.js"></script>
+<script type="text/javascript" src="res/lib/jqueryds/sha1.js"></script>
+<script type="text/javascript" src="res/lib/phonegap.0.9.4.js"></script>
+<script type="text/javascript" src="res/lib/childbrowser.js"></script>
+
+
+<link href="res/css/mobilebase.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div data-role="page" style="min-height:480px;" id="j_0">
+<script type="text/javascript" src="screen-E904.js"></script>
+<link href="screen-E904.css" rel="stylesheet" type="text/css" />
+<div data-role="header" data-position="fixed" data-theme='c' data-backbtn="false" id="j_2" class='mobileheader0' >
+<h1 dsid="mobileheader1">Caption</h1>
+</div>
+<div data-role="content" id="j_3" dsid="mobilecontainer1" data-theme='c'>
+<div data-role="fieldcontain" class="mobiletextarea0">
+<textarea name="mobiletextarea1" id="j_4" tabIndex="2" dsid="mobiletextarea1" data-theme='c' class='mobiletextarea0' >
+</textarea>
+</div>
+<div class="mobilebutton0_wrapper ">
+<a data-role="button" onclick='req();' dsid="mobilebutton1" class='mobilebutton0 mobilebutton0' id='j_5' data-inline='false' data-theme='c' tabIndex="1">Button</a>
+</div>
+<textarea name="mobiletextarea2" id="j_6" tabIndex="2" dsid="mobiletextarea2" data-theme='c' class='mobiletextarea0' >
+</div>
+</div>
+<div data-role="footer" class="mobilefooter0 mobilefooter0" data-position="fixed" id="j_7" data-theme='c' >
+</div>
+</div>
+</body>
+</html>
